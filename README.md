@@ -3,7 +3,9 @@
 "getElementById" is used to select a single element with a specific ID. For example, if there is a unique header element on a webpage with an ID of main-header, using getElementById will directly select that header. "getElementsByClassName" selects all elements with a certain class. For instance, if multiple buttons share the class "submit-btn", this method will select all of them at once. "querySelector" allows selecting the first element that matches any CSS selector, such as the first paragraph inside a div, while "querySelectorAll" selects all elements that match a given CSS selector, like all items in a list.
 While getElementsByClassName/getElementById will only give html collection, querySelector/querySelectorAll gives nodelist.
 
-2. How to create and insert a new element into the DOM
+2. How to create and insert a new element into the DOM?
+
+
 To create a new element and insert it to the DOM rrequires 3 steps:
 
 "First, Create the element: document.createElement("tagName")"
