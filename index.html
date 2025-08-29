@@ -268,7 +268,7 @@
             <!-- Right section starts -->
 
             <div class="history-section bg-white p-4 shadow-lg rounded-lg lg:w-1/4">
-                <div class="flex justify-between mx-8 lg:mx-auto mb-2 items-center">
+                <div class="flex justify-between lg:mx-auto mb-2 items-center">
 
                     <h2 class="text-lg font-semibold"><i class="fa-solid fa-clock-rotate-left"></i> Call History</h2>
                     <button id="clear-history" class="bg-[#00A63E] text-white p-3 rounded-xl w-1/4">Clear</button>
@@ -341,7 +341,7 @@
                     const li = document.createElement("li");
                     const time = new Date().toLocaleTimeString();
                     li.innerHTML = `
-    <div class="flex justify-between place-items-center">
+    <div class="flex justify-between place-items-center bg-[#5c5c5c12] p-3 mt-3 rounded-lg">
         <p class="font-bold">${serviceName} </br> <span class="font-light">${serviceNumber}</span> </p>
         <p class="text-sm ">${time} </p>
     </div>
