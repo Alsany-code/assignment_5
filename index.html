@@ -25,7 +25,7 @@
     <!-- favicon  -->
     <link rel="shortcut icon" href="./assets/logo-dark.png" type="image/x-icon">
 
-    <title>Document</title>
+    <title>Emergency Hotline</title>
 </head>
 
 <body class="hind-madurai-font">
@@ -61,6 +61,9 @@
     </header>
     <main class="bg-[#41ff6b1a] py-20 mx-auto">
         <section class="max-w-[1440px] mx-auto lg:flex gap-6">
+
+            <!-- Left section starts -->
+
             <div class="grid-section grid lg:grid-cols-3 gap-3 place-items-center">
                 <div class=" card w-[340px] h-[320px] bg-white rounded-lg shadow-lg p-3">
                     <div class="flex justify-between place-items-center">
@@ -261,6 +264,9 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Right section starts -->
+
             <div class="history-section bg-white p-4 shadow-lg rounded-lg lg:w-1/4">
                 <div class="flex justify-between mx-8 lg:mx-auto mb-2 items-center">
 
@@ -272,9 +278,8 @@
             </div>
         </section>
     </main>
-    <footer>
 
-    </footer>
+    <!-- Script tag starts -->
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -288,6 +293,8 @@
             const callHistoryList = document.getElementById("call-history");
             const clearHistoryBtn = document.getElementById("clear-history");
 
+
+            /**Heart icon functionality**/
             const hearts = document.querySelectorAll(".card .fa-heart");
             for (const heart of hearts) {
                 heart.addEventListener("click", () => {
