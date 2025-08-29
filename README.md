@@ -4,11 +4,13 @@
 While getElementsByClassName/getElementById will only give html collection, querySelector/querySelectorAll gives nodelist.
 
 2. How to create and insert a new element into the DOM
-3. 
 To create a new element and insert it to the DOM rrequires 3 steps:
-First, Create the element: document.createElement("tagName")
-Set content or attributes: textContent, innerText, etc.
-Insert it into the DOM: appendChild, prepend.
+
+"First, Create the element: document.createElement("tagName")"
+
+"Then, Set content or attributes: textContent, innerText, etc."
+
+"Finally, Insert it into the DOM: appendChild, prepend."
 
 3. Event Bubbling
 
